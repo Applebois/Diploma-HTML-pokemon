@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="icon" href="img\pokeball.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\w3.css">	
+</head>
+<style type="text/css">
+body {
+
+	background-image: url(img/k4eop3o.jpg);
+	  background-size:     100%;    
+	    background-position: auto auto;  
+	background-repeat: no-repeat;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+<style>
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+</style>
+<body>
+<ul>
+<font size="1">
+  <li><a class="active" a href="index.html">Home</a></li>
+	   </font>
+</ul>
+
+
+<p>
+  <form>
+  <font color="blue">
+<h1><font color="black"><b>Register Here</b></font></h1>
+<i>Username :</i><br>
+  <input type="text" name="username" size="40" required pattern="[a-zA-Z0-9]{4,}" placeholder="Minimum 4 words a-z,A-Z,0-9"required><br>
+  <i>Password:</i><br>
+  <input type="password" name="pw" size="40" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{1,}" placeholder="Minimum 6WORDS with a-z and A-Z and 0-9"required><br>
+  <i>Re-type Password: </i><br>
+  <input type="password" name="ck_pw" size="40" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{1,}" placeholder="Retype pw" required><br>
+  <i>Email:</i><br>
+  <input type="email" name="email" size="40" required placeholder="E-mail Address" ><br>
+  <i>Contact Number:</i><br>
+  <input type="text" name="hp" size="40" required pattern="\d.{1,}"   placeholder="Hand Phone Number"  required><br>
+  <i>Address:</i><br>
+  <input type="text" name="adr" size="40" placeholder="Address (must with capital letter)" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{1,}" required><br><br>
+   <font size="2" color="black"><input type="checkbox" name="term" required>By creating an account, you agree to Pokemon's <a href="policy.html">Conditions of Use and Privacy Notice.</a></font>
+
+   <br><br>
+<button type="submit" value="Submit">Submit</button>
+<button type="reset" value="Reset">Reset</button></font>
+  <br>
+  </form>
+  </body>
+</html> 
